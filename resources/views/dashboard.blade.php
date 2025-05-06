@@ -143,23 +143,7 @@
                                         ->get();
                                 @endphp
 
-                                @if($announcements->isNotEmpty())
-                                    <div class="mt-8">
-                                        <h3 class="mb-4 text-lg font-semibold">Pengumuman Terbaru</h3>
-                                        <div class="space-y-4">
-                                            @foreach($announcements as $announcement)
-                                                <div class="p-4 border border-blue-200 rounded-lg bg-blue-50">
-                                                    <h4 class="font-semibold text-blue-900">{{ $announcement->title }}</h4>
-                                                    <p class="mt-2 text-blue-800">{!! nl2br(e($announcement->content)) !!}</p>
-                                                    <p class="mt-2 text-sm text-blue-700">
-                                                        <strong>Tanggal Presentasi:</strong>
-                                                        {{ $announcement->announcement_date->isoFormat('dddd, D MMMM Y HH:mm') }}
-                                                    </p>
-                                                </div>
-                                            @endforeach
-                                        </div>
-                                    </div>
-                                @endif
+
                             @endif
 
                             <div class="mt-8">

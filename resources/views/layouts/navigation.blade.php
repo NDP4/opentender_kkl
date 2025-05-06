@@ -20,6 +20,9 @@
                             <x-nav-link :href="route('admin.announcements.index')" :active="request()->routeIs('admin.announcements.*')">
                                 Kelola Pengumuman
                             </x-nav-link>
+                            <x-nav-link :href="route('admin.settings.edit')" :active="request()->routeIs('admin.settings.*')">
+                                {{ __('Pengaturan') }}
+                            </x-nav-link>
                         </div>
                     @endif
                     @if (Auth::user()->role === 'biro')

@@ -9,10 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="font-sans antialiased">
-    <!-- Loading Spinner -->
-    <div id="loader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
-        <div class="w-16 h-16 border-t-4 border-b-4 border-blue-600 rounded-full animate-spin"></div>
-    </div>
+    <!-- Loading removed since it's not necessary and causing performance issues -->
 
     <!-- Navbar -->
     <nav class="fixed z-40 w-full bg-white shadow-lg">
@@ -133,17 +130,17 @@
                 <div>
                     <h3 class="text-xl font-bold">Kontak</h3>
                     <ul class="mt-4 space-y-2 text-gray-400">
-                        <li>Email: kkl@dinus.ac.id</li>
-                        <li>Phone: (024) 3517261</li>
-                        <li>Address: Jl. Imam Bonjol No.207, Semarang</li>
+                        <li>Email: {{ $contactSettings->email }}</li>
+                        <li>Phone: {{ $contactSettings->phone }}</li>
+                        <li>Address: {{ $contactSettings->address }}</li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold">Links</h3>
                     <ul class="mt-4 space-y-2">
-                        <li><a href="#" class="text-gray-400 transition hover:text-white">Tentang Kami</a></li>
-                        <li><a href="#" class="text-gray-400 transition hover:text-white">Syarat & Ketentuan</a></li>
-                        <li><a href="#" class="text-gray-400 transition hover:text-white">Kebijakan Privasi</a></li>
+                        <li><a href="{{ route('about') }}" class="text-gray-400 transition hover:text-white">Tentang Kami</li>
+                        <li><a href="{{ route('terms') }}" class="text-gray-400 transition hover:text-white">Syarat & Ketentuan</a></li>
+                        <li><a href="{{ route('privacy') }}" class="text-gray-400 transition hover:text-white">Kebijakan Privasi</a></li>
                     </ul>
                 </div>
             </div>
