@@ -111,13 +111,11 @@ Repository ini adalah milik pribadi. Penggunaan atau modifikasi kode memerlukan 
 
 ## 👨‍💻 Pemilik
 
-## 👨‍💻 Pemilik
-
--   **Nama:** Nur Dwi Priyambodo
--   **Email:** nurdwipriyambodo@proton.me
--   **Github:** [@NDP4](https://github.com/NDP4)
--   **Program Studi:** D3 Teknik Informatika
--   **Universitas:** Universitas Dian Nuswantoro
+-   **Nama**: [Your Name]
+-   **Email**: [Your Email]
+-   **Github**: [@yourusername](https://github.com/yourusername)
+-   **Program Studi**: D3 Teknik Informatika
+-   **Universitas**: Universitas Dian Nuswantoro
 
 ## 📸 Screenshot
 
