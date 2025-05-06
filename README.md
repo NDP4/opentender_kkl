@@ -109,13 +109,14 @@ Proyek ini terbuka untuk kontribusi dengan syarat:
 
 Repository ini adalah milik pribadi. Penggunaan atau modifikasi kode memerlukan izin dari pemilik.
 
+
 ## 👨‍💻 Pemilik
 
--   **Nama**: [Your Name]
--   **Email**: [Your Email]
--   **Github**: [@yourusername](https://github.com/yourusername)
--   **Program Studi**: D3 Teknik Informatika
--   **Universitas**: Universitas Dian Nuswantoro
+-   **Nama:** Nur Dwi Priyambodo
+-   **Email:** nurdwipriyambodo@proton.me
+-   **Github:** [@NDP4](https://github.com/NDP4)
+-   **Program Studi:** D3 Teknik Informatika
+-   **Universitas:** Universitas Dian Nuswantoro
 
 ## 📸 Screenshot
 
