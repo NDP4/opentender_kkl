@@ -109,7 +109,6 @@ Proyek ini terbuka untuk kontribusi dengan syarat:
 
 Repository ini adalah milik pribadi. Penggunaan atau modifikasi kode memerlukan izin dari pemilik.
 
-
 ## 👨‍💻 Pemilik
 
 -   **Nama:** Nur Dwi Priyambodo
@@ -123,21 +122,22 @@ Repository ini adalah milik pribadi. Penggunaan atau modifikasi kode memerlukan 
 <details>
 <summary>Landing Page</summary>
 
-![Landing Page](path/to/screenshot1.png)
+![Landing Page](screenshot1.png)
 
 </details>
 
 <details>
 <summary>Dashboard Admin</summary>
 
-![Admin Dashboard](path/to/screenshot2.png)
+![Admin Dashboard](screenshot2.png)
 
 </details>
 
 <details>
 <summary>Form Proposal</summary>
 
-![Proposal Form](path/to/screenshot3.png)
+![Proposal Form](screenshot3.png)
+![Proposal Form](screenshot4.png)
 
 </details>
 
