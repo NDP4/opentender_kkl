@@ -28,7 +28,7 @@
 1. Clone repository
 
 ```bash
-git clone https://github.com/yourusername/opentender-kkl.git
+git clone [https://github.com/NDP4/opentender_kkl.git](https://github.com/NDP4/opentender_kkl.git)
 cd opentender-kkl
 ```
 
